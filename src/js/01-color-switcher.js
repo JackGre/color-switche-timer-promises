@@ -4,7 +4,9 @@ const refs = {
   buttonStart: document.querySelector('[data-start]'),
   buttonStop: document.querySelector('[data-stop]'),
   body: document.querySelector('body'),
+  
 };
+console.log("body: ", refs.body);
 
 // const buttonStart = document.querySelector('[data-start]');
 // const buttonStop = document.querySelector('[data-stop]');
